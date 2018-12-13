@@ -20,7 +20,7 @@ public class WebServletPrueba extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("WebServletPrueba.service");
-		response.getWriter().println("Esta es la Web App Prueba.");
+		response.getWriter().println("Esta es la Web App Prueba: V2 --");
 		response.getWriter().flush();
 	}
 
